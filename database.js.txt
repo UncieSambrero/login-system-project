@@ -1,0 +1,9 @@
+let users = [];
+
+function addUser(username, password) {
+    users.push({ username, password });
+}
+
+function getUsers() {
+    return users;
+}
